@@ -20,7 +20,7 @@ module.exports = {
 	plugins: [
 		new CleanWebpackPlugin(),
 		new HtmlWebpackPlugin({
-			title: 'Hot Module Replacement'
+			title: 'HotModuleReplacement'
 		})
 	],
 	module: {
